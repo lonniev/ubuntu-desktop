@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: ubuntu-unity
+# Cookbook Name:: ubuntu-desktop
 # Recipe:: default
 #
 # Copyright 2014, Lonnie VanZandt
@@ -17,6 +17,6 @@
 # limitations under the License.
 #
 
-package node['ubuntu-unity']['pkg'] do
+package node['ubuntu-desktop']['pkg'] do
   :install
 end

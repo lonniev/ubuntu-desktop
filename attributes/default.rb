@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: ubuntu-unity
+# Cookbook Name:: ubuntu-desktop
 # Recipe:: default
 #
 # Copyright 2014, Lonnie VanZandt lonniev@gmail.com
@@ -16,4 +16,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-default['ubuntu-unity']['pkg'] = 'unity'
+default['ubuntu-desktop']['pkg'] = 'ubuntu-desktop'

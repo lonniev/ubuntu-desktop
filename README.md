@@ -1,22 +1,22 @@
 ubuntu-unity Cookbook
 =============
-Installs and starts up ubuntu-unity, a desktop manager for Ubuntu
+Installs and starts up ubuntu-desktop, a desktop manager for Ubuntu
 
 Attributes
 ----------
-* `default['ubuntu-unity']['pkg']`
-    - The ubuntu-unity package. Defaults to `'unity'`
+* `default['ubuntu-desktop']['pkg']`
+    - The ubuntu-desktop package. Defaults to `'ubuntu-desktop'`
 
 Usage
 -----
 
-Just include `ubuntu-unity` in your node's `run_list`:
+Just include `ubuntu-desktop` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[ubuntu-unity]"
+    "recipe[ubuntu-desktop]"
   ]
 }
 ```
