@@ -1,4 +1,4 @@
-ubuntu-unity Cookbook
+ubuntu-desktop Cookbook
 =============
 Installs and starts up ubuntu-desktop, a desktop manager for Ubuntu
 
