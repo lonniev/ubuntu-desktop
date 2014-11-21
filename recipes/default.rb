@@ -19,5 +19,4 @@
 
 package node['ubuntu-desktop']['pkg'] do
   :install
-  :timeout 1800
 end
